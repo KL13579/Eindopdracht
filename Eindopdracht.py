@@ -321,7 +321,7 @@ with tab4:
                   animation_frame = "Jaar", color_continuous_scale = "matter", height = 600,
                   range_color = [gekozen_percentage[kaart_variabele].min(), gekozen_percentage[kaart_variabele].max()])
     
-    kaart.update_layout(title = kaart_variabele, showlegend_title = False)
+    kaart.update_layout(title = kaart_variabele, showlegendtitle = False)
     
     st.plotly_chart(kaart)
     
