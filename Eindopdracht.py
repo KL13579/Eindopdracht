@@ -320,6 +320,9 @@ with tab4:
         kaart = px.choropleth(gekozen_percentage, locations = "Code", color = kaart_variabele, hover_name = "Land",
                   animation_frame = "Jaar", color_continuous_scale = "matter", height = 600,
                   range_color = [gekozen_percentage[kaart_variabele].min(), gekozen_percentage[kaart_variabele].max()])
+        
+        kaart.update_layout(title = kaart_variabele, legend_title = "")
+        
     st.plotly_chart(kaart)
     
 
