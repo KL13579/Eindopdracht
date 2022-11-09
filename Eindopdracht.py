@@ -3,6 +3,7 @@
 
 # In[1]:
 
+#Gemaakt door: Irina van Dam & Kevin Linders
 
 import pandas as pd
 import numpy as np
